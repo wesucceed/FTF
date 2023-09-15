@@ -15,4 +15,4 @@ migrate:
 clean:
 	find . | grep -E "(/__pycache__)" | xargs rm -rf
 	find . -name "*.pyc" -exec rm -f {} \;
-.PHONY: clean
+.PHONY: cleanc
